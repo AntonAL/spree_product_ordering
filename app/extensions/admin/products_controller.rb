@@ -7,7 +7,7 @@ module Spree
 
           included do
             def reorder
-              @products = Spree::Product.active.find(:all, :order => 'position')
+              @products = Spree::Product.all.order('position')
             end
 
             def update_positions

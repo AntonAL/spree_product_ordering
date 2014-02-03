@@ -1,2 +1,8 @@
 en:
-  reorder: Reorder Products
+  spree:
+    product_ordering:
+      title: Reorder Products
+      hint: 'Drag the products up and down to adjust the order in which they are displayed'
+    admin:
+      tab:
+        reorder: Reorder
